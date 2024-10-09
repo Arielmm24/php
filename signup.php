@@ -14,6 +14,6 @@ if(!isset($_SESSION['username']))
 }
 else
 {
-    header("Location: welcome.php");
+    header("Location: index.php");
 }
 ?>

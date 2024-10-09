@@ -20,7 +20,7 @@ $email=htmlentities($email);
 if(mysqli_num_rows($res1)>0)
     {
         /* redirect to Loginform.php */
-        header("Location: login.php");
+        header("Location: index.php");
     }
     else
     {
@@ -29,12 +29,12 @@ if(mysqli_num_rows($res1)>0)
        if($res)
        {
            /* redirect to Loginform.php */
-           header("Location: login.php");
+           header("Location: index.php");
        }
        else
        {
            /* redirect to Loginform.php */
-           header("Location: login.php");
+           header("Location: index.php");
        }
     }
 }
